@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: aquamarine;
+}
+.playground{
+    text-align: center;
+    margin-top: 5vh;
+}
+.col{
+    width: 30vw;
+    height: 30vh;
+    min-width: 100px;
+    min-height: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    background-color: aliceblue;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/play.css" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+    <title>Let;s play</title>
+</head>
+<body>
+    <div class="playground">
+        <div class="col 1"></div>
+        <div class="col 2"></div>
+        <div class="col 3"></div>
+        <div class="col 4"></div>
+        <div class="col 5"></div>
+        <div class="col 6"></div>
+        <div class="col 7"></div>
+        <div class="col 8"></div>
+        <div class="col 9"></div>
+    </div>
+    <script src = "/play.js"></script>
+    <script>
+        let ioi = io();
+        ioi.emit("new");
+    </script>
+</body>
+</html>
